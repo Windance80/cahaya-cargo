@@ -42,5 +42,50 @@
             transform: translateX(0);
             /* Reset to Slide 1 */
         }
+
+
+    }
+
+    .animate-slide-pic {
+        animation: slide-pic 20s infinite ease;
+        /* 5 unique images, 3 visible, 10 total slides with duplicates */
+    }
+
+    @keyframes slide-pic {
+
+        0%,
+        16% {
+            transform: translateX(0);
+            /* Pause: Images 1,2,3 */
+        }
+
+        20%,
+        36% {
+            transform: translateX(-33.33%);
+            /* Pause: Images 2,3,4 */
+        }
+
+        40%,
+        56% {
+            transform: translateX(-66.67%);
+            /* Pause: Images 3,4,5 */
+        }
+
+        60%,
+        76% {
+            transform: translateX(-100%);
+            /* Pause: Images 4,5,1' (duplicate) */
+        }
+
+        80%,
+        96% {
+            transform: translateX(-133.33%);
+            /* Pause: Images 5,1',2' (duplicate) */
+        }
+
+        100% {
+            transform: translateX(-166.67%);
+            /* Reset to Images 1,2,3 (duplicate set aligns with original) */
+        }
     }
 }
