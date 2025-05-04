@@ -18,7 +18,7 @@ export default function Layanan() {
         'LCL by Sea': (
             <div className="text-black bg-white p-6 rounded-lg shadow-md">
                 <Image
-                    src="/images/lvl-by-sea.png"
+                    src="/images/lvl-by-sea.PNG"
                     width={0}
                     height={0}
                     objectFit="cover"
@@ -33,7 +33,7 @@ export default function Layanan() {
             <div className="text-black bg-white p-6 rounded-lg shadow-md">
 
                 <Image
-                    src="/images/lvl-by-air.png"
+                    src="/images/lvl-by-air.PNG"
                     width={0}
                     height={0}
                     objectFit="cover"
@@ -47,7 +47,7 @@ export default function Layanan() {
         'FCL': (
             <div className="text-black bg-white p-6 rounded-lg shadow-md">
                 <Image
-                    src="/images/fcl.png"
+                    src="/images/fcl.PNG"
                     width={0}
                     height={0}
                     objectFit="cover"
