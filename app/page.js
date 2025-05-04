@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Image from 'next/image';
 import Link from "next/link";
 import { useState } from "react";
+import VideoEmbed from "./components/VideoEmbed";
 
 export default function Home() {
   const [faqIndex, setFaqIndex] = useState(null);
@@ -141,7 +142,7 @@ export default function Home() {
       <div className="container mx-auto bg-amber-300">
         <h1 className="text-4xl font-bold mb-3 px-4">Testimoni Pelanggan</h1>
 
-        {/* carousel start */}
+        {/* carousel testimoni start */}
         <div className="relative w-full overflow-hidden">
           <div className="flex animate-slide">
             {/* <!-- Carousel Items --> */}
@@ -168,21 +169,66 @@ export default function Home() {
             </div>
             <div className="min-w-full flex-shrink-0">
               <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
-                <p className="text-gray-600 mb-4"><i>Pengalaman impor dari China menyenangkan, <br/>forwarder andal, tepat waktu, luar biasa!</i></p>
+                <p className="text-gray-600 mb-4"><i>Pengalaman impor dari China menyenangkan, <br />forwarder andal, tepat waktu, luar biasa!</i></p>
                 <p>Siti Rahmah</p>
-                <p className="text-gray-600">Penjual alat2 rumah tangga<br/> instagram</p>
+                <p className="text-gray-600">Penjual alat2 rumah tangga<br /> instagram</p>
               </div>
             </div>
             <div className="min-w-full flex-shrink-0">
               <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
-                <p className="text-gray-600 mb-4"><i>Impor dari China efisien, forwarder profesional, <br/>barang sampai tepat waktu, sangat recommended!</i></p>
+                <p className="text-gray-600 mb-4"><i>Impor dari China efisien, forwarder profesional, <br />barang sampai tepat waktu, sangat recommended!</i></p>
                 <p>Dewi Lestari</p>
                 <p className="text-gray-600">Penjual komponen elektronik tiktok</p>
               </div>
             </div>
           </div>
         </div>
-        {/* carousel end */}
+        {/* carousel testimoni end */}
+
+        {/* youtube start */}
+        <VideoEmbed />
+        {/* youtube end */}
+
+        {/* carousel pic start */}
+        <div className="relative w-2/3 overflow-hidden mx-auto">
+          <div className="flex animate-slide-pic">
+            {/* <!-- Original 5 Images --> */}
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer1.webp" height={0} width={0} alt="pelanggan photo 1" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
+            </div>
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer2.webp" height={0} width={0} alt="pelanggan photo 2" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
+            </div>
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer3.png" height={0} width={0} alt="pelanggan photo 3" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
+            </div>
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer4.webp" height={0} width={0} alt="pelanggan photo 4" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
+            </div>
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer5.webp" height={0} width={0} alt="pelanggan photo 5" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
+            </div>
+            {/* <!-- Duplicated 5 Images for Seamless Loop --> */}
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer1.webp" height={0} width={0} alt="pelanggan photo 1" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
+            </div>
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer2.webp" height={0} width={0} alt="pelanggan photo 2" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
+            </div>
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer3.png" height={0} width={0} alt="pelanggan photo 3" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
+            </div>
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer4.webp" height={0} width={0} alt="pelanggan photo 4" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
+            </div>
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer5.webp" height={0} width={0} alt="pelanggan photo 5" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
+            </div>
+          </div>
+        </div>
+
+
+        {/* carousel pic end */}
       </div>
 
       {/* CTA */}
