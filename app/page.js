@@ -193,7 +193,7 @@ export default function Home() {
       </section> */}
 
       {/* Testimoni pelanggan */}
-      <div className="container mx-auto  my-8 outline-2 outline-gray-100 shadow-lg p-10">
+      <div className="container mx-auto  my-8 outline-2 outline-gray-300 shadow-lg p-10 rounded-lg">
         <div className="flex items-center justify-center text-center">
           <h1 className="text-4xl font-bold mb-3 px-4">Testimoni Pelanggan</h1>
         </div>
