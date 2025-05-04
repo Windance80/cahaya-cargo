@@ -291,7 +291,7 @@ export default function Home() {
 
       {/* CTA */}
       <Footer />
-      
+
     </div>
   );
 }

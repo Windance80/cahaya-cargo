@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-        <section className="text-white mx-auto items-center h-[45vh] relative">
+        <section className="text-white mx-auto items-center h-[65vh] md:h-[45vh] relative">
 
-            <Image src="/images/footer.jpeg" alt="footer image background" objectFit="cover" width={1920} height={1080} sizes="100vw" className="absolute h-full w-full object-cover z-[-1]" />
+            <Image src="/images/footer.jpeg" alt="footer image background" objectFit="cover" width={1920} height={1080} sizes="100vw" className="absolute h-full w-full  object-cover z-[-1]" />
 
             <div className="absolute bg-blue-700 w-full h-full opacity-70  z-0"></div>
 
-            <div className="relative flex flex-col md:flex-row md:items-center items-start px-8 justify-center h-full">
+            <div className="relative flex flex-col md:flex-row md:items-center items-start px-8 justify-center h-full ">
                 <div>
                     <Image
                         src="/images/logo.png"
@@ -64,7 +64,7 @@ export default function Footer() {
             </div>
 
             {/* footer */}
-            <div className="relative text-white pb-4">
+            <div className="relative text-white p-4">
                 <div className="absolute bg-blue-700 left-0 top-0 h-full w-full z-0 " />
                 <div className="flex flex-col items-center" >
                     <div className="z-10">
