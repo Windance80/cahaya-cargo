@@ -137,6 +137,54 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimoni pelanggan */}
+      <div className="container mx-auto bg-amber-300">
+        <h1 className="text-4xl font-bold mb-3 px-4">Testimoni Pelanggan</h1>
+
+        {/* carousel start */}
+        <div className="relative w-full overflow-hidden">
+          <div className="flex animate-slide">
+            {/* <!-- Carousel Items --> */}
+            <div className="min-w-full flex-shrink-0">
+              <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
+                <p className="text-gray-600 mb-4"><i>Forwarder terpercaya, impor barang dari China lancar, <br />pengiriman cepat, sangat puas!</i></p>
+                <p>Budi Santoso</p>
+                <p className="text-gray-600">Penjual mainan anak</p>
+              </div>
+            </div>
+            <div className="min-w-full flex-shrink-0">
+              <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
+                <p className="text-gray-600 mb-4"><i>Forwarder Pelayanan profesional, <br />harga kompetitif, barang dari China tiba aman, recommended!</i></p>
+                <p>Anita Wijaya</p>
+                <p className="text-gray-600">Penjual baju instagram</p>
+              </div>
+            </div>
+            <div className="min-w-full flex-shrink-0">
+              <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
+                <p className="text-gray-600 mb-4"><i>Proses impor mudah, forwarder responsif,<br /> sangat membantu bisnis saya, terima kasih!</i></p>
+                <p>Rudi Hartono</p>
+                <p className="text-gray-600">Penjual baju tiktok</p>
+              </div>
+            </div>
+            <div className="min-w-full flex-shrink-0">
+              <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
+                <p className="text-gray-600 mb-4"><i>Pengalaman impor dari China menyenangkan, <br/>forwarder andal, tepat waktu, luar biasa!</i></p>
+                <p>Siti Rahmah</p>
+                <p className="text-gray-600">Penjual alat2 rumah tangga<br/> instagram</p>
+              </div>
+            </div>
+            <div className="min-w-full flex-shrink-0">
+              <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
+                <p className="text-gray-600 mb-4"><i>Impor dari China efisien, forwarder profesional, <br/>barang sampai tepat waktu, sangat recommended!</i></p>
+                <p>Dewi Lestari</p>
+                <p className="text-gray-600">Penjual komponen elektronik tiktok</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* carousel end */}
+      </div>
+
       {/* CTA */}
       <section className="text-white mx-auto items-center h-[45vh] relative">
 
@@ -216,7 +264,6 @@ export default function Home() {
 
           <div className="absolute left-0 top-0 h-full w-full bg-blue-700 opacity-20 z-10" />
         </div>
-
 
       </section>
     </div>

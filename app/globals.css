@@ -1,1 +1,46 @@
 @import "tailwindcss";
+
+@layer utilities {
+    .animate-slide {
+        animation: slide 12s infinite ease;
+        /* 5 slides */
+    }
+
+    @keyframes slide {
+
+        0%,
+        16% {
+            transform: translateX(0);
+            /* Pause on Slide 1 */
+        }
+
+        20%,
+        36% {
+            transform: translateX(-100%);
+            /* Pause on Slide 2 */
+        }
+
+        40%,
+        56% {
+            transform: translateX(-200%);
+            /* Pause on Slide 3 */
+        }
+
+        60%,
+        76% {
+            transform: translateX(-300%);
+            /* Pause on Slide 4 */
+        }
+
+        80%,
+        96% {
+            transform: translateX(-400%);
+            /* Pause on Slide 5 */
+        }
+
+        100% {
+            transform: translateX(0);
+            /* Reset to Slide 1 */
+        }
+    }
+}
