@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Image from 'next/image';
 import Link from "next/link";
 import { useState } from "react";
+import VideoEmbed from "./components/VideoEmbed";
 
 export default function Home() {
   const [faqIndex, setFaqIndex] = useState(null);
@@ -184,40 +185,44 @@ export default function Home() {
         </div>
         {/* carousel testimoni end */}
 
+        {/* youtube start */}
+        <VideoEmbed />
+        {/* youtube end */}
+
         {/* carousel pic start */}
         <div className="relative w-2/3 overflow-hidden mx-auto">
           <div className="flex animate-slide-pic">
             {/* <!-- Original 5 Images --> */}
-            <div className="w-[138px] flex-shrink-0">
-              <Image src="/images/customer1.webp" height={148} width={138} alt="pelanggan photo 1" className="w-[138px] h-[148px] object-cover" />
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer1.webp" height={0} width={0} alt="pelanggan photo 1" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
             </div>
-            <div className="w-[138px] flex-shrink-0">
-              <Image src="/images/customer2.webp" height={148} width={138} alt="pelanggan photo 2" className="w-[138px] h-[148px] object-cover" />
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer2.webp" height={0} width={0} alt="pelanggan photo 2" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
             </div>
-            <div className="w-[138px] flex-shrink-0">
-              <Image src="/images/customer3.png" height={148} width={138} alt="pelanggan photo 3" className="w-[138px] h-[148px] object-cover" />
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer3.png" height={0} width={0} alt="pelanggan photo 3" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
             </div>
-            <div className="w-[138px] flex-shrink-0">
-              <Image src="/images/customer4.webp" height={148} width={138} alt="pelanggan photo 4" className="w-[138px] h-[148px] object-cover" />
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer4.webp" height={0} width={0} alt="pelanggan photo 4" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
             </div>
-            <div className="w-[138px] flex-shrink-0">
-              <Image src="/images/customer5.webp" height={148} width={138} alt="pelanggan photo 5" className="w-[138px] h-[148px] object-cover" />
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer5.webp" height={0} width={0} alt="pelanggan photo 5" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
             </div>
             {/* <!-- Duplicated 5 Images for Seamless Loop --> */}
-            <div className="w-[138px] flex-shrink-0">
-              <Image src="/images/customer1.webp" height={148} width={138} alt="pelanggan photo 1" className="w-[138px] h-[148px] object-cover" />
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer1.webp" height={0} width={0} alt="pelanggan photo 1" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
             </div>
-            <div className="w-[138px] flex-shrink-0">
-              <Image src="/images/customer2.webp" height={148} width={138} alt="pelanggan photo 2" className="w-[138px] h-[148px] object-cover" />
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer2.webp" height={0} width={0} alt="pelanggan photo 2" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
             </div>
-            <div className="w-[138px] flex-shrink-0">
-              <Image src="/images/customer3.png" height={148} width={138} alt="pelanggan photo 3" className="w-[138px] h-[148px] object-cover" />
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer3.png" height={0} width={0} alt="pelanggan photo 3" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
             </div>
-            <div className="w-[138px] flex-shrink-0">
-              <Image src="/images/customer4.webp" height={148} width={138} alt="pelanggan photo 4" className="w-[138px] h-[148px] object-cover" />
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer4.webp" height={0} width={0} alt="pelanggan photo 4" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
             </div>
-            <div className="w-[138px] flex-shrink-0">
-              <Image src="/images/customer5.webp" height={148} width={138} alt="pelanggan photo 5" className="w-[138px] h-[148px] object-cover" />
+            <div className="w-[33.3%] flex-shrink-0">
+              <Image src="/images/customer5.webp" height={0} width={0} alt="pelanggan photo 5" sizes="(max-width: 768px) 20vw, 13.33vw" className="w-full h-auto object-cover aspect-[138/148]" />
             </div>
           </div>
         </div>
