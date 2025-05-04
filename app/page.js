@@ -17,29 +17,29 @@ export default function Home() {
   // Data for the lists (to avoid repetition in code)
   const faqItems = [
     {
-      question: 'Bagaimana cara menggunakan jasa import Wilopo Cargo?',
+      question: 'Bagaimana cara menggunakan jasa import Cahaya Cargo?',
       answer:
-        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Wilopo Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
+        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Cahaya Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
     },
     {
-      question: 'Bagaimana cara menggunakan jasa import Wilopo Cargo?',
+      question: 'Bagaimana cara menggunakan jasa import Cahaya Cargo?',
       answer:
-        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Wilopo Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
+        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Cahaya Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
     },
     {
-      question: 'Bagaimana cara menggunakan jasa import Wilopo Cargo?',
+      question: 'Bagaimana cara menggunakan jasa import Cahaya Cargo?',
       answer:
-        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Wilopo Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
+        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Cahaya Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
     },
     {
-      question: 'Bagaimana cara menggunakan jasa import Wilopo Cargo?',
+      question: 'Bagaimana cara menggunakan jasa import Cahaya Cargo?',
       answer:
-        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Wilopo Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
+        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Cahaya Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
     },
     {
-      question: 'Bagaimana cara menggunakan jasa import Wilopo Cargo?',
+      question: 'Bagaimana cara menggunakan jasa import Cahaya Cargo?',
       answer:
-        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Wilopo Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
+        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Cahaya Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
     },
   ];
 
