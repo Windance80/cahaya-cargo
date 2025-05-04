@@ -64,8 +64,61 @@ export default function Home() {
 
       </section>
 
+      {/* Pencapaian sections */}
+      <div className="relative w-full bg-blue-500 mt-10 text-white p-10 ">
+        <div className="flex flex-col items-center justify-center text-center">
+          <h1 className="text-4xl font-bold mb-10 px-4">Pencapaian Cahaya Cargo</h1>
+
+          <div className="flex flex-row gap-x-10 ">
+            <div className="flex flex-col md:flex-row gap-x-10 gap-y-5">
+              <div className="flex flew-row md:flex-col md:items-center">
+                <div>
+                  <Image src="/images/account.svg" width={64} height={64} alt="akun icon" objectFit="cover" />
+                </div>
+                <div className="flex flex-col text-left md:text-center">
+                  <p className="text-2xl">20,000+</p>
+                  <p>Pelanggan Loyal</p>
+                </div>
+              </div>
+              <div className="flex flew-row md:flex-col md:items-center">
+                <div>
+                  <Image src="/images/box.svg" width={64} height={64} alt="box icon" objectFit="cover" />
+                </div>
+                <div className="flex flex-col text-left md:text-center">
+                  <p className="text-2xl">15,000+</p>
+                  <p>Total Kubikasi</p>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-x-10 gap-y-5">
+              <div className="flex flew-row md:flex-col md:items-center">
+                <div>
+                  <Image src="/images/smiley.svg" width={64} height={64} alt="smiley icon" objectFit="cover" />
+                </div>
+                <div className="flex flex-col text-left md:text-center">
+                  <p className="text-2xl">94%</p>
+                  <p>Kepuasan Pelanggan</p>
+                </div>
+              </div>
+              <div className="flex flew-row md:flex-col md:items-center ">
+                <div>
+                  <Image src="/images/plane.svg" width={64} height={64} alt="akun icon" objectFit="cover" />
+                </div>
+                <div className="flex flex-col text-left md:text-center">
+                  <p className="text-2xl">15,000+</p>
+                  <p>Total Pengiriman</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
       {/* Q&A sections */}
-      <section className="flex flex-col px-4 my-12 min-h-[75vh] items-center justify-center">
+      <section className="flex flex-col px-4 mb-12 min-h-[75vh] items-center justify-center">
 
         <Image src="/images/faq_bg.jpg" alt="Q&A image background" objectFit="cover" width={1920} height={1080} sizes="100vw" className="absolute opacity-10 h-[75vh] w-full object-cover z-[-1]" />
 
