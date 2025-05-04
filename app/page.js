@@ -117,7 +117,7 @@ export default function Home() {
 
 
       {/* Services Overview */}
-      <section className="container mx-auto py-12">
+      <section className="container mx-auto py-12 ">
         <h2 className="text-3xl font-bold text-center mb-8">Layanan Kami</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center">
@@ -139,56 +139,60 @@ export default function Home() {
       </section>
 
       {/* Testimoni pelanggan */}
-      <div className="container mx-auto bg-amber-300">
-        <h1 className="text-4xl font-bold mb-3 px-4">Testimoni Pelanggan</h1>
+      <div className="container mx-auto  my-8 outline-2 outline-gray-100 shadow-lg p-10">
+        <div className="flex items-center justify-center text-center">
+          <h1 className="text-4xl font-bold mb-3 px-4">Testimoni Pelanggan</h1>
+        </div>
 
-        {/* carousel testimoni start */}
-        <div className="relative w-full overflow-hidden">
-          <div className="flex animate-slide">
-            {/* <!-- Carousel Items --> */}
-            <div className="min-w-full flex-shrink-0">
-              <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
-                <p className="text-gray-600 mb-4"><i>Forwarder terpercaya, impor barang dari China lancar, <br />pengiriman cepat, sangat puas!</i></p>
-                <p>Budi Santoso</p>
-                <p className="text-gray-600">Penjual mainan anak</p>
+        <div className="flex flex-col md:flex-row md:gap-1 gap-8 items-center my-16 justify-center md:mx-auto ">
+
+          {/* carousel testimoni start */}
+          <div className="flex-1 relative overflow-hidden">
+            <div className="flex animate-slide">
+              {/* <!-- Carousel Items --> */}
+              <div className="min-w-full flex-shrink-0">
+                <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
+                  <p className="text-gray-600 mb-4"><i>Forwarder terpercaya, <br />impor barang dari China lancar, <br />pengiriman cepat, sangat puas!</i></p>
+                  <p>Budi Santoso</p>
+                  <p className="text-gray-600">Penjual mainan anak</p>
+                </div>
               </div>
-            </div>
-            <div className="min-w-full flex-shrink-0">
-              <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
-                <p className="text-gray-600 mb-4"><i>Forwarder Pelayanan profesional, <br />harga kompetitif, barang dari China tiba aman, recommended!</i></p>
-                <p>Anita Wijaya</p>
-                <p className="text-gray-600">Penjual baju instagram</p>
+              <div className="min-w-full flex-shrink-0">
+                <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
+                  <p className="text-gray-600 mb-4"><i>Forwarder Pelayanan profesional, <br />harga kompetitif, <br />barang dari China tiba aman, <br />recommended!</i></p>
+                  <p>Anita Wijaya</p>
+                  <p className="text-gray-600">Penjual baju instagram</p>
+                </div>
               </div>
-            </div>
-            <div className="min-w-full flex-shrink-0">
-              <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
-                <p className="text-gray-600 mb-4"><i>Proses impor mudah, forwarder responsif,<br /> sangat membantu bisnis saya, terima kasih!</i></p>
-                <p>Rudi Hartono</p>
-                <p className="text-gray-600">Penjual baju tiktok</p>
+              <div className="min-w-full flex-shrink-0">
+                <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
+                  <p className="text-gray-600 mb-4"><i>Proses impor mudah, forwarder responsif,<br /> sangat membantu bisnis saya,<br /> terima kasih!</i></p>
+                  <p>Rudi Hartono</p>
+                  <p className="text-gray-600">Penjual baju tiktok</p>
+                </div>
               </div>
-            </div>
-            <div className="min-w-full flex-shrink-0">
-              <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
-                <p className="text-gray-600 mb-4"><i>Pengalaman impor dari China menyenangkan, <br />forwarder andal, tepat waktu, luar biasa!</i></p>
-                <p>Siti Rahmah</p>
-                <p className="text-gray-600">Penjual alat2 rumah tangga<br /> instagram</p>
+              <div className="min-w-full flex-shrink-0">
+                <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
+                  <p className="text-gray-600 mb-4"><i>Pengalaman impor dari China menyenangkan, <br />forwarder andal, tepat waktu, <br />luar biasa!</i></p>
+                  <p>Siti Rahmah</p>
+                  <p className="text-gray-600">Penjual alat2 rumah tangga<br /> instagram</p>
+                </div>
               </div>
-            </div>
-            <div className="min-w-full flex-shrink-0">
-              <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
-                <p className="text-gray-600 mb-4"><i>Impor dari China efisien, forwarder profesional, <br />barang sampai tepat waktu, sangat recommended!</i></p>
-                <p>Dewi Lestari</p>
-                <p className="text-gray-600">Penjual komponen elektronik tiktok</p>
+              <div className="min-w-full flex-shrink-0">
+                <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
+                  <p className="text-gray-600 mb-4"><i>Impor dari China efisien, <br />forwarder profesional, <br />barang sampai tepat waktu, <br />sangat recommended!</i></p>
+                  <p>Dewi Lestari</p>
+                  <p className="text-gray-600">Penjual komponen elektronik tiktok</p>
+                </div>
               </div>
             </div>
           </div>
+          {/* carousel testimoni end */}
+
+          {/* youtube start */}
+          <VideoEmbed />
+          {/* youtube end */}
         </div>
-        {/* carousel testimoni end */}
-
-        {/* youtube start */}
-        <VideoEmbed />
-        {/* youtube end */}
-
         {/* carousel pic start */}
         <div className="relative w-2/3 overflow-hidden mx-auto">
           <div className="flex animate-slide-pic">
