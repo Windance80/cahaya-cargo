@@ -170,7 +170,7 @@ export default function Home() {
 
 
       {/* Services Overview */}
-      <section className="container mx-auto py-12 ">
+      {/* <section className="container mx-auto py-12 ">
         <h2 className="text-3xl font-bold text-center mb-8">Layanan Kami</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center">
@@ -189,7 +189,7 @@ export default function Home() {
             <p>Penanganan dokumen dan izin kepabeanan dengan profesional.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimoni pelanggan */}
       <div className="container mx-auto  my-8 outline-2 outline-gray-100 shadow-lg p-10">
