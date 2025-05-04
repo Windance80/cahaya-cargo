@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -12,7 +13,15 @@ export default function Navbar() {
     return (
         <nav className="bg-blue-600 text-white p-4">
             <div className="container mx-auto flex justify-between items-center">
-                <h1 className="text-xl font-bold">Cahaya Cargo</h1>
+                <div className='flex flex-row items-center justify-center text-center'>
+                    <Image
+                        src="/images/logo.png"
+                        width={100}
+                        height={100}
+                        alt="Logo icon"
+                    />
+                    <h1 className="text-xl font-bold">Cahaya Cargo</h1>
+                </div>
 
                 {/* Hamburger Icon for Mobile */}
                 <button
