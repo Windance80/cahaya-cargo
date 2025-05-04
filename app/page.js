@@ -22,24 +22,26 @@ export default function Home() {
         'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Cahaya Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
     },
     {
-      question: 'Bagaimana cara menggunakan jasa import Cahaya Cargo?',
+
+
+      question: 'Berapa lama proses pengiriman barang di Cahaya Cargo?',
       answer:
-        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Cahaya Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
+        'Waktu pengiriman barang import China Anda, kurang lebih 30 hari untuk pengiriman jalur Laut, dan sekitar 7 hari untuk pengiriman lewat Udara.',
     },
     {
-      question: 'Bagaimana cara menggunakan jasa import Cahaya Cargo?',
+      question: 'Kapan waktu operasional Layanan Pelangan Cahaya Cargo?',
       answer:
-        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Cahaya Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
+        'Layanan pelanggan kami beroperasi pada jam 08.00-22.00 di hari senin-Jumat dan pukul 08.00-17.00 di hari Sabtu.',
     },
     {
-      question: 'Bagaimana cara menggunakan jasa import Cahaya Cargo?',
+      question: 'Bagaimana jika saya ingin komplain, konsultasi, dan lainnya?',
       answer:
-        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Cahaya Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
+        'Waktu pengiriman barang import China Anda, kurang lebih 30 hari untuk pengiriman jalur Laut, dan sekitar 7 hari untuk pengiriman lewat Udara.',
     },
     {
-      question: 'Bagaimana cara menggunakan jasa import Cahaya Cargo?',
+      question: 'Bagaimana cara saya untuk mengikuti pembelajaran di Kelas Impor?',
       answer:
-        'Caranya mudah. Cukup hubungi Layanan Pelanggan atau tim Penjualan kami untuk arahan lebih lanjut. Cahaya Cargo akan membantu proses pembayaran ke pemasok, pengiriman barang, pengurusan pajak dan bea cukai, hingga pengiriman ke alamat Anda.',
+        'Anda bisa langsung mendaftarkan diri melalui website untuk mengikuti Kelas Impor. Setelah itu, Anda akan dihubungi langsung untuk menghadiri Kelas Impor secara online',
     },
   ];
 
