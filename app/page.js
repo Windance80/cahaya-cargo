@@ -47,8 +47,8 @@ export default function Home() {
       <Navbar />
       {/* Hero Section */}
       <section className="relative h-[80vh]">
-        <Image src="/images/sea-freight.jpg" alt="hero image" layout="fill" objectFit="cover" quality={100} priority />
-        <div className="absolute inset-0 bg-black opacity-50" />
+        <Image src="/images/sea-freight.jpg" alt="hero image" layout="fill" objectFit="cover" quality={100} priority className="-z-30" />
+        <div className="absolute inset-0 bg-black opacity-50 -z-20" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-left text-white px-4">
 
