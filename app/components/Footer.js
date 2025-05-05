@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <section className="text-white mx-auto items-center h-[65vh] md:h-[45vh] relative">
 
-            <Image src="/images/footer.jpeg" alt="footer image background" objectFit="cover" width={1920} height={1080} sizes="100vw" className="absolute h-full w-full  object-cover z-[-1]" />
+            <Image src="/images/footer.jpeg" alt="footer image background"  width={1920} height={1080} sizes="100vw" className="absolute h-full w-full  object-cover z-[-1]" />
 
             <div className="absolute bg-blue-700 w-full h-full opacity-70  z-0"></div>
 

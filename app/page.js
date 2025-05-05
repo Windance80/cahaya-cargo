@@ -50,7 +50,10 @@ export default function Home() {
       <Navbar />
       {/* Hero Section */}
       <section className="relative h-[80vh]">
-        <Image src="/images/sea-freight.jpg" alt="hero image" layout="fill" objectFit="cover" quality={100} priority className="-z-30" />
+        {/* <Image src="/images/sea-freight.jpg" alt="hero image" layout="fill" objectFit="cover" quality={100} priority className="-z-30" /> */}
+
+        <Image src="/images/sea-freight.jpg" alt="hero image" fill  quality={100} priority className="-z-30 object-cover" />
+
         <div className="absolute inset-0 bg-black opacity-50 -z-20" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-left text-white px-4">
@@ -76,7 +79,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row gap-x-10 gap-y-5">
               <div className="flex flew-row md:flex-col md:items-center">
                 <div>
-                  <Image src="/images/account.svg" width={64} height={64} alt="akun icon" objectFit="cover" />
+                  <Image src="/images/account.svg" width={64} height={64} alt="akun icon" className="object-cover" />
                 </div>
                 <div className="flex flex-col text-left md:text-center">
                   <p className="text-2xl">20,000+</p>
@@ -85,7 +88,7 @@ export default function Home() {
               </div>
               <div className="flex flew-row md:flex-col md:items-center">
                 <div>
-                  <Image src="/images/box.svg" width={64} height={64} alt="box icon" objectFit="cover" />
+                  <Image src="/images/box.svg" width={64} height={64} alt="box icon"  className="object-cover" />
                 </div>
                 <div className="flex flex-col text-left md:text-center">
                   <p className="text-2xl">15,000+</p>
@@ -96,7 +99,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row gap-x-10 gap-y-5">
               <div className="flex flew-row md:flex-col md:items-center">
                 <div>
-                  <Image src="/images/smiley.svg" width={64} height={64} alt="smiley icon" objectFit="cover" />
+                  <Image src="/images/smiley.svg" width={64} height={64} alt="smiley icon" className="object-cover" />
                 </div>
                 <div className="flex flex-col text-left md:text-center">
                   <p className="text-2xl">94%</p>
@@ -105,7 +108,7 @@ export default function Home() {
               </div>
               <div className="flex flew-row md:flex-col md:items-center ">
                 <div>
-                  <Image src="/images/plane.svg" width={64} height={64} alt="akun icon" objectFit="cover" />
+                  <Image src="/images/plane.svg" width={64} height={64} alt="akun icon"  className="object-cover" />
                 </div>
                 <div className="flex flex-col text-left md:text-center">
                   <p className="text-2xl">15,000+</p>
@@ -123,7 +126,7 @@ export default function Home() {
       {/* Q&A sections */}
       <section className="flex flex-col px-4 mb-12 min-h-[75vh] items-center justify-center">
 
-        <Image src="/images/faq_bg.jpg" alt="Q&A image background" objectFit="cover" width={1920} height={1080} sizes="100vw" className="absolute opacity-10 h-[75vh] w-full object-cover z-[-1]" />
+        <Image src="/images/faq_bg.jpg" alt="Q&A image background"  width={1920} height={1080} sizes="100vw" className="absolute opacity-10 h-[75vh] w-full object-cover z-[-1]" />
 
         <div className="text-left text-black py-20 items-center justify-center">
           <h1 className="text-4xl font-bold mb-3">Pertanyaan yang sering diajukan</h1>
