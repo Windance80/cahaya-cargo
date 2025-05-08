@@ -210,35 +210,35 @@ export default function Home() {
             <div className="flex-1 relative overflow-hidden">
               <div className="flex animate-slide">
                 {/* <!-- Carousel Items --> */}
-                <div className="max-w-full flex-shrink-0">
+                <div className="w-full flex-shrink-0">
                   <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
                     <p className="text-gray-600 mb-4"><i>Forwarder terpercaya, impor barang dari China lancar, pengiriman cepat, sangat puas!</i></p>
                     <p>Budi Santoso</p>
                     <p className="text-gray-600">Penjual mainan anak</p>
                   </div>
                 </div>
-                <div className="max-w-full flex-shrink-0">
+                <div className="w-full flex-shrink-0">
                   <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
                     <p className="text-gray-600 mb-4"><i>Forwarder Pelayanan profesional, harga kompetitif, barang dari China tiba aman, recommended!</i></p>
                     <p>Anita Wijaya</p>
                     <p className="text-gray-600">Penjual baju instagram</p>
                   </div>
                 </div>
-                <div className="max-w-full flex-shrink-0">
+                <div className="w-full flex-shrink-0">
                   <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
-                    <p className="text-gray-600 mb-4"><i>Proses impor mudah, forwarder responsif, <br/>sangat membantu bisnis saya, terima kasih!</i></p>
+                    <p className="text-gray-600 mb-4"><i>Proses impor mudah, forwarder responsif, sangat membantu bisnis saya, terima kasih!</i></p>
                     <p>Rudi Hartono</p>
                     <p className="text-gray-600">Penjual baju tiktok</p>
                   </div>
                 </div>
-                <div className="max-w-full flex-shrink-0">
+                <div className="w-full flex-shrink-0">
                   <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
                     <p className="text-gray-600 mb-4"><i>Pengalaman impor dari China menyenangkan, forwarder andal, tepat waktu, luar biasa!</i></p>
                     <p>Siti Rahmah</p>
                     <p className="text-gray-600">Penjual alat2 rumah tangga instagram</p>
                   </div>
                 </div>
-                <div className="max-w-full flex-shrink-0">
+                <div className="w-full flex-shrink-0">
                   <div className="bg-gray-200 h-64 flex flex-col items-center justify-center text-center">
                     <p className="text-gray-600 mb-4"><i>Impor dari China efisien, forwarder profesional, barang sampai tepat waktu, sangat recommended!</i></p>
                     <p>Dewi Lestari</p>
