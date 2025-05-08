@@ -255,7 +255,7 @@ export default function Home() {
           {/* youtube end */}
         </div>
         {/* carousel pic start */}
-        <div className="relative w-2/3 overflow-hidden mx-auto">
+        <div className="relative md:w-2/3 overflow-hidden mx-auto">
           <div className="flex animate-slide-pic">
             {/* <!-- Original 5 Images --> */}
             <div className="w-[33.3%] flex-shrink-0">
