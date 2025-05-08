@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function WhatsApp() {
-    const phoneNumber = "081293603304"
+    const phoneNumber = "+6281293603304"
     const message = "Halo, selamat datang! Kami menyediakan jasa import barang dari China, Taiwan, Eropa, dan Jepang. Bagaimana kami bisa membantu Anda? Silakan tanya atau minta penawaran!";
     const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 
