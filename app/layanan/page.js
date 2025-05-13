@@ -115,13 +115,13 @@ export default function Layanan() {
             </section >
 
             {/* Kategori produk start */}
-            <section className="container mx-auto py-8 mb-10">
+            <section className="container mx-auto px-8 mb-10">
                 <div >
                     <h1 className="text-4xl font-bold">Kategori Produk</h1>
                     <p>Berbagai macam kategori barang yang dapat kami impor</p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     <div className="flex flex-col items-center">
                         <Image
                             src="/images/tas.jpg"
