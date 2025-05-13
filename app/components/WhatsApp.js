@@ -6,7 +6,7 @@ export default function WhatsApp() {
     const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 
     return (
-        <a 
+        <a
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"

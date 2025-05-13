@@ -64,7 +64,7 @@ export default function Layanan() {
         <div>
             <Navbar />
             {/* hero image */}
-            <section className="container mx-auto h-full my-8 mb-12">
+            <section className="container mx-auto h-full my-8 mb-12 max-w-[1200px]">
                 <Image
                     src="/images/layanan-hero.jpg"
                     layout="fill"
