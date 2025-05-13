@@ -64,15 +64,16 @@ export default function Layanan() {
         <div>
             <Navbar />
             {/* hero image */}
-            <section className="container mx-auto h-full my-8 mb-12 max-w-[1200px]">
+            <section className="container mx-auto  h-full my-8 mb-12 max-w-[1200px]">
                 <Image
                     src="/images/layanan-hero.jpg"
                     layout="fill"
                     alt="layanan hero image"
                     objectFit="cover"
-                    className="-z-30"
+                    className="-z-30 sm:max-h-[100vh] max-h-[50vh]"
+
                 />
-                <div className="absolute inset-0 bg-black opacity-50 -z-20">
+                <div className="absolute inset-0 bg-black opacity-50 -z-20 sm:max-h-[100vh] max-h-[50vh]">
                 </div>
                 <div className="flex items-center justify-center ">
                     <div className="text-left text-white px-4 ">
